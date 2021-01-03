@@ -71,10 +71,4 @@ def make_app():
         (r"/api/callback", OrderJsapiReceiveHandler),                         #
         (r"/public/taobao", PublicTaobaoHandler),                         #
         ],
-        # cookie_secret = 'cb56YAgMjpevlWBNqgrv5g==',
-        # login_url = '/',
-        # xheader= True,
-        # debug = True,
-        # autoreload = True,
-        # serve_traceback= True
     )
